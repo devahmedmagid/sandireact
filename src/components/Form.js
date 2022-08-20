@@ -85,10 +85,10 @@ const Form = () => {
           {switcherValue === 'dvd' && (
             <>
               <div>
-                <label htmlFor='DVD'>Size (MB)</label>
+                <label htmlFor='size'>Size (MB)</label>
                 <input
                   type='number'
-                  id='DVD'
+                  id='size'
                   placeholder='#size'
                   name='size'
                   onChange={handleChange}
@@ -113,7 +113,7 @@ const Form = () => {
                 />
               </div>
               <div>
-                <label htmlFor='Furniture'>Width (CM)</label>
+                <label htmlFor='width'>Width (CM)</label>
                 <input
                   type='number'
                   id='width'
@@ -123,7 +123,7 @@ const Form = () => {
                 />
               </div>
               <div>
-                <label htmlFor='Furniture'>Length (CM)</label>
+                <label htmlFor='length'>Length (CM)</label>
                 <input
                   type='number'
                   id='length'
@@ -141,10 +141,10 @@ const Form = () => {
           {switcherValue === 'book' && (
             <>
               <div>
-                <label htmlFor='book'>Weight (KG)</label>
+                <label htmlFor='weight'>Weight (KG)</label>
                 <input
                   type='number'
-                  id='book'
+                  id='weight'
                   placeholder='#weight'
                   name='weight'
                   onChange={handleChange}
