@@ -1,0 +1,27 @@
+$accent-color: #f65a83;
+
+header {
+  padding: 20px 0;
+}
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+#delete-product-btn {
+  background-color: $accent-color;
+  margin: 0;
+  &:hover {
+    background-color: darken($accent-color, 10%);
+  }
+}
+
+button[type='cancel'] {
+  background-color: $accent-color;
+  margin: 0;
+  &:hover {
+    background-color: darken($accent-color, 10%);
+  }
+}
