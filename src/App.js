@@ -9,7 +9,7 @@ function App() {
   const [products, setProducts] = useState([]);
   useEffect(() => {
     getProducts();
-  }, []);
+  }, [products]);
 
   const getProducts = () => {
     axios.get('https://myscandi.herokuapp.com/').then((response) => {
